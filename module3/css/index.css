@@ -1,0 +1,86 @@
+
+body{
+    font-size: 16px;
+    color:#4F4A45;
+    background-color:#ED7D31;
+    
+}
+
+nav{
+    background-color: #fff !important; 
+    border-radius: 0;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    
+}
+
+
+#main-content{
+    margin-top: 15px;
+}
+
+#page-title{
+    margin-bottom: 40px;
+   
+}
+
+h3{
+    font-size: 1.3em;
+}
+
+.desc{
+    width: 400px;
+    height: auto;
+    margin: 0 auto 15px;
+    background-color: #F6F1EE;
+}
+
+.details{
+    font-size: .9em;
+}
+
+
+/********** Small devices only *********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+    #content-main{
+
+    }
+
+    
+
+    .col-md-6 {
+        width: 45%;
+        margin-left: 0;
+    }
+
+    .details{
+        font-size:.7em;
+    }
+
+    
+    .col-md-12{
+        width: 100%;
+    }
+
+    .col-md-6:nth-child(2n) {
+        margin-right: 0; /* Remove margin on every second item */
+    }
+
+
+}
+
+
+@media (max-width:767px){
+    .row{
+        width: 90%;
+    }
+
+    .desc{
+        margin: 0 30px 10px;
+    }
+
+    .details{
+        font-size: .7em;
+    }
+}
